@@ -1,0 +1,53 @@
+body {
+    background: url("/assets/pic.jpg") no-repeat;
+    background-size: cover;
+
+    background-size: 115%;
+    background-position-x: 38%;
+    background-position-y: 0%;
+}
+#heading-trello{
+    color:rgb(240, 125, 18);
+    font-weight: bold;
+}
+#heading-div{
+    background-color : rgba(155, 236, 25, 0.4);
+    text-align: center;
+}
+
+#items{
+    font-size: 1.3vw;    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.card-body{
+    width: 22em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card-body>h3{
+text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+
+.btn{
+    position: absolute;
+    right: 2%;
+    bottom: 10%;
+}
+
+.complete{
+    text-decoration: line-through blue; 
+}
+
+.incomplete{
+    text-decoration: none;
+}
+
